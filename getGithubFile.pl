@@ -1,5 +1,4 @@
 #!/usr/bin/env perl
-use 5.010;
 $_=`whereis wget`;
 s/wget://;
 die "install wget, please\n" if length($_)<length('/bin/wget');
